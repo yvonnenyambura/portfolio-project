@@ -3,3 +3,41 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #2c3e50;
+ background: #e6e0f8;;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s;
+
+}
+
+header {
+    background: #2c3e50;
+    color: #fff;
+    padding: 15px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    font-size: 30px;
+    color: #f39c12 ;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    
+}
