@@ -141,5 +141,13 @@ nav ul li a:hover {
 }
 .contact p {
     color: #2c3e50;
-    margin-bottom: 10px;
+    margin: 5px 0;
 }
+footer {
+    background: #d8cbed;
+    color: #2c3e50;
+    text-align: center;
+    padding: 15px 20px;
+    font: 10px;
+}
+
