@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -57,17 +61,16 @@ nav ul li a:hover {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 10px;
+    padding: 10px 0;
     background: #d8cbed;
     text-align: left;
     border-bottom: 2px solid #f39c12;
-    min-height: 250px;
 }
 
 
 .hero-text {
     max-width: 500px;
-    margin: 20px 40px 20px 30px;
+    margin: 10px 30px 10px 20px;
     text-align: left;
 
 }
@@ -151,6 +154,15 @@ nav ul li a:hover {
     color: #2c3e50;
     margin: 5px 0;
 }
+
+.contact a {
+    color: #f39c12;
+    
+}
+.contact a:hover {
+    color: #2c3e50;
+}
+
 footer {
     background: #d8cbed;
     color: #2c3e50;
@@ -167,6 +179,7 @@ footer .social-icons {
 footer .social-icons a {
     display: inline-flex;
     justify-content: center;
+    align-items: center;
     width: 40px;
     height: 40px;
     margin: 0 6px;
