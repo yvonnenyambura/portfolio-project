@@ -30,7 +30,7 @@ nav {
 }
 
 nav h1 {
-    font-size: 30px;
+    font-size: 20px;
     color: #f39c12 ;
 }
 nav ul {
@@ -39,5 +39,25 @@ nav ul {
 }
 
 nav ul li {
-    
+    margin-left: 20px;
+
+}
+
+nav ul li a {
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: #f39c12;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 60px 20px;
+    background: #d8cbed;
+    text-align: left;
+    border-bottom: 2px solid #f39c12;
 }
