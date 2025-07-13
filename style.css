@@ -80,7 +80,7 @@ nav ul li a:hover {
 
 }
 .hero-text p {
-    color: #2c3e50;
+    color: #f39c12;
 }
 
 .about {
@@ -89,5 +89,57 @@ nav ul li a:hover {
     background:  #e6e0f8;
 }
 
+.about h2 {
+    color: #f39c12;
+    margin-bottom: 10px;
+}
 
+.about p {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #2c3e50; 
 
+}
+
+.portfolio {
+    padding: 60px 20px;
+    background: #d8cbed;
+    text-align: center;
+}
+.portfolio h2 {
+    color: #f39c12;
+    margin-bottom: 20px;
+}
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+.project {
+    background: #e6e0f8;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #c1b2e0;
+    transition: transform o.3s, box-shadow 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.contact {
+    padding: 60px 20px;
+    text-align: center;
+    background: #e6e0f8;
+}
+
+.contact h2 {
+    color: #f39c12;
+    margin-bottom: 10px;
+}
+.contact p {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
